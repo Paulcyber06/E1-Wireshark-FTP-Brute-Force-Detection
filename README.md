@@ -1,6 +1,6 @@
 # Wireshark — Analyse d'un Brute Force FTP
  
-> Utilisation de **Wireshark** pour analyser une capture réseau et détecter une attaque par brute force FTP. L'objectif est d'identifier les tentatives de connexion et de retrouver les credentials compromis.
+> L'attaquant, n'ayant pas réussi à obtenir `/passwords.pdf` via la reconnaissance web, change de tactique — analyse d'un brute force FTP contre **Buttercup Games** avec **Wireshark**.
  
 ---
  
@@ -140,9 +140,9 @@ La session révèle clairement la séquence de l'attaque :
 | Credentials compromis | ❌ jenny / password123 |
 | Heure de compromission | ⚠️ 2021-02-01 à 23:26:26 |
 | IP de l'attaquant | ⚠️ 192.168.0.115 |
- 
-Cette attaque illustre les risques d'un mot de passe faible combiné à un protocole non chiffré. La compromission a été rapide et entièrement visible en clair dans la capture réseau.
- 
+
+La compromission du compte `jenny` n'est que le début. L'investigation se poursuit dans l'Épisode 2 pour déterminer ce que l'attaquant a fait après la connexion réussie.
+
 ---
  
 ## 9. Réponse opérationnelle SOC
