@@ -27,8 +27,6 @@ Cet audit a mis en évidence l'utilisation du protocole **FTP non chiffré** sur
 une vulnérabilité connue permettant l'interception des credentials en clair. 
 
 La migration vers **SFTP** était planifiée mais pas encore déployée au moment de l'attaque.
-
-L'hypothèse retenue par le SOC : l'attaquant a obtenu le nom d'utilisateur `jenny` par un moyen non encore déterminé — possiblement un ancien accès non révoqué ou une connaissance interne de l'organisation.
  
 ---
  
