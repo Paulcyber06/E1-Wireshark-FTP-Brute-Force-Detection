@@ -175,4 +175,4 @@ Un compte TryHackMe gratuit suffit pour y accéder.
 
 ---
 
-*© Paulcyber06 — Tous droits réservés. Reproduction interdite sans autorisation.*
+*© Paulcyber06 — Tous droits réservés.*
