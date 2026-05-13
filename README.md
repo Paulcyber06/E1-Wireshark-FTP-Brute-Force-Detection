@@ -111,7 +111,7 @@ Deux connexions réussies sont détectées :
 | IP destination (serveur FTP) | 192.168.0.147 |
 | Code de retour | 230 — Login successful |
  
-Pour reconstruire la conversation complète, on utilise **Follow TCP Stream** sur la session réussie de la première connexion:
+Pour reconstruire la conversation complète, on utilise **Follow TCP Stream** sur la session réussie de la première connexion :
  
 [![TCP Stream — Reconstruction de la session](6.png)](6.png)
  
