@@ -18,10 +18,10 @@
 ---
  
 ## 1. Contexte
- 
-Cette analyse est basée sur un fichier `.pcapng` issu d'un exercice TryHackMe, représentant une capture réseau réelle d'une attaque par brute force FTP.
- 
-L'objectif est d'identifier les tentatives de connexion, de retrouver les credentials compromis et de documenter la compromission afin d'escalader vers l'équipe compétente.
+
+N'ayant pas réussi à récupérer le fichier `/passwords.pdf` via la reconnaissance web, l'attaquant change de tactique. Il cible directement un compte utilisateur du serveur FTP de Buttercup Games avec une attaque par brute force.
+
+L'hypothèse retenue par le SOC : l'attaquant a obtenu le nom d'utilisateur `jenny` par un moyen non encore déterminé — possiblement un ancien accès non révoqué ou une connaissance interne de l'organisation.
  
 ---
  
