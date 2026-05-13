@@ -158,7 +158,7 @@ La compromission du compte `jenny` n'est que le début. L'investigation se pours
  
 - Désactiver le compte `jenny` immédiatement
 - Bloquer l'IP `192.168.0.115` au niveau du pare-feu
-- Isoler le serveur FTP du réseau
+- Isoler le serveur FTP du réseau en attendant la migration vers SFTP
 ### 📋 Escalade
  
 - Documenter la compromission avec la date, l'heure et les credentials exposés
@@ -167,12 +167,11 @@ La compromission du compte `jenny` n'est que le début. L'investigation se pours
 ### 🔔 Détection
  
 - Créer une alerte sur les codes 530 répétés en moins de 60 secondes
-- Remplacer FTP par SFTP ou FTPS pour chiffrer les échanges
 ### 🛡️ Recommandations
  
 - Interdire les mots de passe faibles — politique de mots de passe obligatoire
 - Mettre en place un compte lockout après N tentatives échouées
-- Désactiver FTP et migrer vers SFTP
+- Désactiver FTP et migrer vers SFTP dès que possible
 ---
  
 ## 📁 Reproduire cette analyse
