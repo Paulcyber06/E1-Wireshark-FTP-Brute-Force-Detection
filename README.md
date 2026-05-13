@@ -19,7 +19,7 @@
  
 ## 1. Contexte
 
-N'ayant pas réussi à récupérer le fichier `/passwords.pdf` via la reconnaissance web, l'attaquant change de tactique. Il cible directement un compte utilisateur du serveur FTP de Buttercup Games avec une attaque par brute force.
+N'ayant pas réussi à récupérer le fichier `/passwords.pdf` via la reconnaissance web, l'attaquant change de tactique. Il passe directement à l'offensif et cible directement un compte utilisateur du serveur FTP de Buttercup Games avec une attaque par brute force.
 
 Suite à la série d'incidents que nous avons vu précédemment, **Buttercup Games** a mandaté un audit de sécurité interne. 
 
