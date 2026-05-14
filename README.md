@@ -172,17 +172,13 @@ La compromission du compte `jenny` n'est que le début. L'investigation se pours
 - Désactiver FTP et migrer vers SFTP dès que possible
 
 <div align="center">
+<br>
 
----
+[![⬅️ Précédent](https://img.shields.io/badge/⬅️%20Précédent--grey?style=for-the-badge)](https://github.com/Paulcyber06/E4-Splunk-Dashboard-and-Alerts)
+[![➡️ Suivant](https://img.shields.io/badge/➡️%20Suivant--blue?style=for-the-badge)](https://github.com/Paulcyber06/E6-Wireshark-Post-Exploitation)
 
-### 🔗 Navigation
-
-| ⬅️ Épisode précédent | ➡️ Épisode suivant |
-|:---:|:---:|
-| [← E4 — Splunk : Dashboard et Alertes](https://github.com/Paulcyber06/E4-Splunk-Dashboard-and-Alerts) | [E6 — Wireshark : Post-Exploitation →](https://github.com/Paulcyber06/E6-Wireshark-Post-Exploitation) |
-
+<br>
 </div>
-
 ---
 ## 📁 Reproduire cette analyse
 
