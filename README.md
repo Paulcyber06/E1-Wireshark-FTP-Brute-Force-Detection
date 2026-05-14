@@ -127,11 +127,15 @@ La session révèle clairement la séquence de l'attaque :
 ---
  
 ## 7. MITRE ATT&CK Mapping
+
+ <br>
  
 | Technique | ID | Description |
 |-----------|-----|-------------|
 | Brute Force | T1110 | Tentatives massives de connexion FTP avec wordlist |
 | Valid Accounts | T1078 | Utilisation des credentials jenny:password123 |
+
+ <br>
  
 ---
  
