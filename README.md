@@ -67,12 +67,16 @@ ftp.response.code == 530
 [![Code 530 — Login incorrect](3.png)](3.png)
  
 Le code **530** correspond au message **"Login incorrect"**. Chaque paquet avec ce code représente une tentative ratée.
+
+<br>
  
 | Code FTP | Signification |
 |----------|--------------|
 | 530 | Login incorrect — credentials invalides |
 | 230 | Login successful — connexion réussie |
 | 331 | Username OK, password required |
+
+<br>
  
 > ⚠️ La répétition massive de codes 530 en peu de temps est un indicateur fiable d'une attaque par brute force automatisée ou semi-automatisée.
  
