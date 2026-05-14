@@ -175,7 +175,7 @@ La compromission du compte `jenny` n'est que le début. L'investigation se pours
 <br>
 
 [![⬅️ Précédent](https://img.shields.io/badge/⬅️%20Précédent--grey?style=for-the-badge)](https://github.com/Paulcyber06/E4-Splunk-Dashboard-and-Alerts)
-[![➡️ Suivant](https://img.shields.io/badge/➡️%20Suivant--blue?style=for-the-badge)](https://github.com/Paulcyber06/E6-Wireshark-Post-Exploitation)
+[![➡️ Suivant](https://img.shields.io/badge/➡️%20Suivant--grey?style=for-the-badge)](https://github.com/Paulcyber06/E6-Wireshark-Post-Exploitation)
 
 <br>
 </div>
