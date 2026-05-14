@@ -171,7 +171,14 @@ La compromission du compte `jenny` n'est que le début. L'investigation se pours
 - Mettre en place un compte lockout après N tentatives échouées
 - Désactiver FTP et migrer vers SFTP dès que possible
 ---
- 
+
+## 🔗 Navigation
+
+| ⬅️ Épisode précédent | ➡️ Épisode suivant |
+|---|---|
+| [E4 — Splunk : Dashboard et Alertes](https://github.com/Paulcyber06/E4-Splunk-Dashboard-and-Alerts) | [E6 — Wireshark : Post-Exploitation](https://github.com/Paulcyber06/E6-Wireshark-Post-Exploitation) |
+
+---
 ## 📁 Reproduire cette analyse
 
 Le fichier `.pcapng` utilisé est disponible sur **TryHackMe** dans la room **[h4cked](https://tryhackme.com/room/h4cked)**.
