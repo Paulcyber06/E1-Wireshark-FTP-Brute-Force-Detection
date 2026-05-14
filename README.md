@@ -146,7 +146,7 @@ La session révèle clairement la séquence de l'attaque :
 | Heure de compromission | ⚠️ 2021-02-01 à 23:26:26 |
 | IP de l'attaquant | ⚠️ 192.168.0.115 |
 
-La compromission du compte `jenny` n'est que le début. L'investigation se poursuit dans l'Épisode 2 pour déterminer ce que l'attaquant a fait après la connexion réussie.
+La compromission du compte `jenny` n'est que le début. L'investigation se poursuit dans l'Épisode 6 pour déterminer ce que l'attaquant a fait après la connexion réussie.
 
 ---
  
