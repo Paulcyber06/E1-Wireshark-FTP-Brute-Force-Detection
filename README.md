@@ -103,6 +103,8 @@ ftp.response.code == 230
 [![Code 230 — Login successful](5.png)](5.png)
  
 Deux connexions réussies sont détectées :
+
+<br>
  
 | Élément | Valeur |
 |---------|--------|
@@ -110,6 +112,8 @@ Deux connexions réussies sont détectées :
 | IP source (attaquant) | 192.168.0.115 |
 | IP destination (serveur FTP) | 192.168.0.147 |
 | Code de retour | 230 — Login successful |
+
+<br>
  
 Pour reconstruire la conversation complète, on utilise **Follow TCP Stream** sur la session réussie de la première connexion :
  
