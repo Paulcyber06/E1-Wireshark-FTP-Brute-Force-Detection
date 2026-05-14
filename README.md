@@ -170,7 +170,6 @@ La compromission du compte `jenny` n'est que le début. L'investigation se pours
 - Interdire les mots de passe faibles — politique de mots de passe obligatoire
 - Mettre en place un compte lockout après N tentatives échouées
 - Désactiver FTP et migrer vers SFTP dès que possible
----
 
 <div align="center">
 
