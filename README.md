@@ -116,11 +116,15 @@ Pour reconstruire la conversation complète, on utilise **Follow TCP Stream** su
 [![TCP Stream — Reconstruction de la session](6.png)](6.png)
  
 La session révèle clairement la séquence de l'attaque :
+
+ <br>
  
 | Étape | Commande | Réponse |
 |-------|----------|---------|
 | 1ère tentative | `USER jenny` / `PASS 111111` | `530 Login incorrect` |
 | 2ème tentative | `USER jenny` / `PASS password123` | `230 Login successful` |
+
+ <br>
  
 > ❌ **L'attaquant a trouvé les credentials valides en moins de 15 secondes.** Le mot de passe `password123` figure systématiquement dans les wordlists de brute force comme `rockyou.txt`. Le compte `jenny` est compromis depuis le **2021-02-01 à 23:26:26**.
  
