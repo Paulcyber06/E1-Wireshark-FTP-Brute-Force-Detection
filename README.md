@@ -33,8 +33,12 @@ La migration vers **SFTP** était planifiée mais pas encore déployée au momen
 ## 2. Vue générale du trafic
  
 On commence par ouvrir le fichier dans Wireshark sans aucun filtre pour avoir une vue d'ensemble du trafic.
+
+<br>
  
 [![Vue générale — 907 paquets](1.png)](1.png)
+
+<br>
  
 Le fichier contient **907 paquets**. Le protocole dominant est **TCP**, avec une forte présence de trafic **FTP** sur le **port 21**.
  
@@ -49,9 +53,12 @@ On applique un premier filtre pour isoler uniquement le trafic FTP :
 ```
 ftp
 ```
- 
+<br>
+
 [![Trafic FTP — tentatives répétées visibles](2.png)](2.png)
- 
+
+<br>
+
 La colonne **Info** révèle immédiatement de nombreuses commandes `USER` et `PASS` répétées — signature caractéristique d'une attaque par brute force. L'attaquant teste méthodiquement une liste de combinaisons identifiant/mot de passe.
  
 ---
@@ -63,9 +70,12 @@ On affine le filtre pour ne voir que les tentatives de connexion échouées :
 ```
 ftp.response.code == 530
 ```
- 
+<br>
+
 [![Code 530 — Login incorrect](3.png)](3.png)
- 
+
+<br>
+
 Le code **530** correspond au message **"Login incorrect"**. Chaque paquet avec ce code représente une tentative ratée.
 
 <br>
@@ -89,8 +99,11 @@ On filtre sur les commandes `PASS` pour voir tous les mots de passe testés :
 ```
 ftp.request.command == "PASS"
 ```
- 
+<br>
+
 [![Commandes PASS — mots de passe testés](4.png)](4.png)
+
+<br>
  
 La liste des mots de passe tentés est visible en clair dans la colonne **Info**. C'est la preuve directe que FTP ne chiffre pas les échanges — n'importe qui sur le réseau peut intercepter ces données.
  
@@ -103,9 +116,12 @@ On filtre sur le code de succès pour identifier le moment exact de la compromis
 ```
 ftp.response.code == 230
 ```
- 
+<br>
+
 [![Code 230 — Login successful](5.png)](5.png)
- 
+
+<br>
+
 Deux connexions réussies sont détectées :
 
 <br>
