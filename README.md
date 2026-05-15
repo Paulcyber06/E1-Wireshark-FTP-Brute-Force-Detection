@@ -23,7 +23,7 @@ N'ayant pas réussi à récupérer le fichier `/passwords.pdf` via la reconnaiss
 
 Suite à la série d'incidents que nous avons vu précédemment, **Buttercup Games** a mandaté un audit de sécurité interne. 
 
-Cet audit a mis en évidence l'utilisation du protocole **FTP non chiffré** sur plusieurs serveurs — 
+Cet audit a mis en évidence l'utilisation du protocole **FTP non chiffré** sur plusieurs serveurs : 
 une vulnérabilité connue permettant l'interception des credentials en clair. 
 
 La migration vers **SFTP** était planifiée mais pas encore déployée au moment de l'attaque.
