@@ -1,6 +1,6 @@
 # Épisode 5 — Wireshark : Détection d'un Brute Force FTP
 
-> L'attaquant, n'ayant pas réussi à obtenir `/passwords.pdf` via la reconnaissance web, change de tactique — analyse d'un brute force FTP contre **Buttercup Games** avec **Wireshark**.
+> L'attaquant, n'ayant pas réussi à obtenir le Fichier `/passwords.pdf` via la reconnaissance web, change de tactique. Nous allons analyser un brute force FTP contre **Buttercup Games** avec **Wireshark**.
  
 ---
  
@@ -203,7 +203,7 @@ La compromission du compte `jenny` n'est que le début. L'investigation se pours
 - Créer une alerte sur les codes 530 répétés en moins de 60 secondes
 ### 🛡️ Recommandations
  
-- Interdire les mots de passe faibles — politique de mots de passe obligatoire
+- Interdire les mots de passe faibles. Sensibiliser, et adopter une politique de mots de passe complexes obligatoire
 - Mettre en place un compte lockout après N tentatives échouées
 - Désactiver FTP et migrer vers SFTP dès que possible
 
