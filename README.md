@@ -59,7 +59,7 @@ ftp
 
 <br>
 
-La colonne **Info** révèle immédiatement de nombreuses commandes `USER` et `PASS` répétées — signature caractéristique d'une attaque par brute force. L'attaquant teste méthodiquement une liste de combinaisons identifiant/mot de passe.
+La colonne **Info** révèle immédiatement de nombreuses commandes `USER` et `PASS` répétées. C'est une signature caractéristique d'une attaque par brute force. L'attaquant teste méthodiquement une liste de combinaisons identifiant/mot de passe.
  
 ---
  
@@ -105,7 +105,7 @@ ftp.request.command == "PASS"
 
 <br>
  
-La liste des mots de passe tentés est visible en clair dans la colonne **Info**. C'est la preuve directe que FTP ne chiffre pas les échanges — n'importe qui sur le réseau peut intercepter ces données.
+La liste des mots de passe tentés est visible en clair dans la colonne **Info**. C'est la preuve directe que FTP ne chiffre pas les échanges : n'importe qui sur le réseau peut intercepter ces données.
  
 ---
  
